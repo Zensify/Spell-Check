@@ -1,8 +1,8 @@
 import re, time
 
 def main():
-    dictionary = loadWordsFromFile("dictionary.txt")
-    aliceWords = loadWordsFromFile("AliceInWonderLand.txt")
+    dictionary = loadWordsFromFile("Data\dictionary.txt")
+    aliceWords = loadWordsFromFile("Data\AliceInWonderLand.txtt")
 
     for i in range(len(aliceWords)):
         aliceWords[i] = aliceWords[i].lower()
